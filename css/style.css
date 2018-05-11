@@ -1,22 +1,62 @@
 *, *:before, *:after {
   box-sizing: border-box;
 }
-body {
+.container {
   background-color: #dadada;
   font-size: 10px;
+  width: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
+
 .london{
-   background-image: url("images/london.png")
+   background-image: url("../images/london.png");
 }
 
 .baku {
-  background-image: url("images/baku.jpg");
+  background-image: url("../images/baku.jpg");
 }
 
 .madrid {
-  background-image: url("images/madrid.jpg");
+  background-image: url("../images/madrid.jpg");
 }
 
 .rome {
-  background-image: url("images/rome.jpg");
+  background-image: url("../images/rome.jpg");
+}
+.preview {
+  width: 300px;
+  height: 250px;
+  background-size: cover;
+  margin: 0 auto 20px 0;
+
+}
+
+.preview h1 {
+  font-size: 2em;
+  padding-left: 25px;
+  padding-top: 30px;
+}
+.title h1 {
+  font-size: 12px;
+  text-transform: uppercase;
+  text-align: center;
+  padding-bottom: 25px;
+  padding-top: 15px;
+  font-family: Cairo;
+  letter-spacing: 1px;
+  width: 300px;
+}
+@media screen and (min-width: 575px){
+   div {
+    margin: 1%;
+    width: 48%;
+  }
+}
+@media screen and (min-width: 991px){
+   div {
+    margin: 1%;
+    width: 48%;
+  }
 }
